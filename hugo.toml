@@ -1,7 +1,7 @@
 baseURL = 'https://neilaitken.me/'
 languageCode = 'en-gb'
 title = 'Neil Aitken'
-theme = 'Typo'
+theme = 'typo'
 
 [taxonomies]
 tag = 'tags'
