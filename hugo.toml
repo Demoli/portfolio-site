@@ -1,0 +1,84 @@
+baseURL = 'https://neilaitken.me/'
+languageCode = 'en-gb'
+title = 'Neil Aitken'
+theme = 'Typo'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+googleAnalytics = "G-WZ4W5W3F4W"
+
+[params]
+# Meta description
+description = "Neil Aitken Home"
+
+# Appearance settings
+theme = 'auto'
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Welcome'
+homeIntroContent = """
+I am Neil Aitken, a senior backend developer specialising in e-commerce
+
+## Main Technologies
+
+* Magento 2
+* Shopify
+* Symfony
+* PHP
+* Python
+"""
+
+# Collection to display on home
+#homeCollectionTitle = 'Posts'
+#homeCollection = 'posts'
+
+# Lists parameters
+#paginationSize = 100
+#listSummaries = true
+#listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = false
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/neilaitken/"
+
+#[[params.social]]
+#name = "medium"
+#url = "https://medium.com/@user"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Demoli"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+#[[params.menu]]
+#name = "posts"
+#url = "/posts"
+
+#[[params.menu]]
+#name = "about"
+#url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
