@@ -20,7 +20,7 @@ theme = 'auto'
 # Intro on main page, content is markdown
 homeIntroTitle = 'Welcome'
 homeIntroContent = """
-I am Neil Aitken, a senior backend developer specialising in e-commerce
+I am Neil Aitken, a London based, senior backend developer specialising in e-commerce
 
 ## Main Technologies
 
