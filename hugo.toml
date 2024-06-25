@@ -7,7 +7,8 @@ theme = 'typo'
 tag = 'tags'
 
 # Google analytics code
-googleAnalytics = "G-WZ4W5W3F4W"
+[services.googleAnalytics]
+ID = 'G-WZ4W5W3F4W'
 
 [params]
 # Meta description
